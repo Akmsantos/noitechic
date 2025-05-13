@@ -1,1 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ shop.name }}</title>
+  {{ content_for_header }}
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  {{ 'theme.css' | asset_url | stylesheet_tag }}
+</head>
+<body>
+  <header>
+    {% include 'header' %}
+  </header>
+
+  <main>
+    {{ content_for_layout }}
+  </main>
+
+  <footer>
+    {% include 'footer' %}
+  </footer>
+
+  {{ 'theme.js' | asset_url | script_tag }}
+</body>
+</html>
 // Conteúdo não encontrado
