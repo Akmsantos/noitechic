@@ -1,1 +1,31 @@
-// Conteúdo não encontrado
+// Conteúdo não encontradobody {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: #1A1F71;
+  padding: 20px;
+  color: white;
+}
+
+.site-footer {
+  background-color: #1A1F71;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  background-color: #FF6A61;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e65c57;
+}
